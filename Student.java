@@ -1,18 +1,27 @@
 package iVoteSimulator;
+import java.util.*;
 
 public class Student {
 	
-	String ID = "";
-
+	private ArrayList<String> roster;
+	
 	public Student() {
-		
+		roster = new ArrayList<String>();
 	}
 	
-	public Student(String id) {
-		ID = id;
+	public ArrayList<String> getID() {
+		return roster;
 	}
 	
-	public String getID(Student name) {
-		return name.ID;
+	public String getID(int index){
+		return roster.get(index);
+	}
+	
+	public void setID(String name){
+		roster.add(name);
+	}
+	
+	public int getSize(){
+		return roster.size();
 	}
 }
