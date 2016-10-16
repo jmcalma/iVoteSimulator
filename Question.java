@@ -1,5 +1,13 @@
+//Jerahmeel Calma
+//CS356 Assignment 1
 package iVoteSimulator;
 
+/*
+ * Each student's choice is stored in
+ * a boolean array in which each answer,
+ * corresponding to a certain index in the
+ * array, is marked true.
+ */
 public class Question {
 
 	private boolean[] answers;

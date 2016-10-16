@@ -1,10 +1,13 @@
+//Jerahmeel Calma
+//CS356 Assignment 1
 package iVoteSimulator;
 import java.util.*;
 
 public class SimulationDriver {
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		
+		//simulation for single choice question
 		Question q1;
 		System.out.println("The answer choices are A B");
 		
@@ -32,6 +35,7 @@ public class SimulationDriver {
 		
 		
 		/*
+		//simulation for multiple choice question
 		Question q2;
 		System.out.println();
 		System.out.println("The answer choices are A B C D");
@@ -40,8 +44,8 @@ public class SimulationDriver {
 		Student roster2 = new Student();
 		String[] choices2 = {"1", "2", "3", "4"};
 		Random rand2 = new Random();
-		int pick2;
-		int howMany = (int)(Math.random() * 4 + 1);
+		int pick2; //the answer choice the computer will choose
+		int howMany = (int)(Math.random() * 4 + 1); //the amount of answers the computer will choose
 		Hashtable<String, boolean[]> submissions2 = new Hashtable<String, boolean[]>();
 		for(int i = 0; i < numStudents2; i++) {
 			q2 = new MultiQuestion(4);

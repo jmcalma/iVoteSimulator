@@ -1,3 +1,5 @@
+//Jerahmeel Calma
+//CS356 Assignment 1
 package iVoteSimulator;
 
 public class MultiQuestion extends Question{

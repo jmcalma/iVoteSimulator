@@ -1,3 +1,5 @@
+//Jerahmeel Calma
+//CS356 Assignment 1
 package iVoteSimulator;
 
 public class SingleQuestion extends Question{
@@ -6,6 +8,11 @@ public class SingleQuestion extends Question{
 		super();
 	}
 	
+	/*
+	 * If a student wants to change their answer, they
+	 * can resubmit their answer and the submission
+	 * will be updated.
+	 */
 	public void setChoice(int index) {
 		if(getChoice(0) == false && getChoice(1) == false) {
 			setChoice(index, true);
